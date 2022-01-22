@@ -19,7 +19,7 @@ services:
       - ./app:/srv/app
     depends_on:
       - db
-    command: 'strapi start'
+    command: 'strapi develop'
 
   db:
     container_name: mysql
